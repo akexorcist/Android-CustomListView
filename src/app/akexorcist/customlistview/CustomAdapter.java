@@ -14,7 +14,6 @@ public class CustomAdapter  extends BaseAdapter {
     int[] resId;
        
     public CustomAdapter(Context context, String[] strName, int[] resId) {
-        super();
         this.mContext = context;
         this.strName = strName;
         this.resId = resId;
